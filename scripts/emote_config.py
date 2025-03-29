@@ -10,9 +10,9 @@ class Emote_Config:
         self.seed = seed
         self.hfpath = hfpath
 
-        self.train_csv_fp = 'dataset_following_elco_split/train.csv'
-        self.val_csv_fp = 'dataset_following_elco_split/val.csv'
-        self.test_csv_fp = 'dataset_following_elco_split/test.csv'
+        self.train_csv_fp = 'benchmark_data/exp-entailment/train.csv'
+        self.val_csv_fp = 'benchmark_data/exp-entailment/val.csv'
+        self.test_csv_fp = 'benchmark_data/exp-entailment/test.csv'
 
         # We choose popular models (high downloads) that are trained on MNLI
         if self.model_name == 'bert-base':
