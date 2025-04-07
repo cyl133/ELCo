@@ -1,0 +1,5 @@
+*
+# But don't ignore these directories and files
+!scripts/
+!scripts/**
+!.gitignore
